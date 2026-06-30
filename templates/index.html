@@ -1546,7 +1546,7 @@
 <nav id="navbar" class="transparent">
   <div class="container nav-inner">
     <a href="#hero" class="nav-logo">
-      <img src="imgs/logo.png" alt="HFC Logo" class="nav-logo-img" />
+      <img src="{{ url_for('static', filename='imgs/logo.png') }}" alt="HFC Logo" class="nav-logo-img" />
       <div class="nav-brand">
         <span class="nav-brand-name">HFC</span>
         <span class="nav-brand-sub">House of Flowers & Cakes</span>
@@ -1622,7 +1622,7 @@
     <div class="hero-visual">
       <div class="hero-logo-ring">
         <div class="hero-logo-circle">
-          <img src="imgs/logo.png" alt="HFC Logo" />
+          <img src="{{ url_for('static', filename='imgs/logo.png') }}" alt="HFC Logo" />
         </div>
         <div class="hero-stats">
           <div class="hero-stat">
@@ -1649,7 +1649,7 @@
     <div class="mobile-banner-card">
       <div class="mobile-banner-top">
         <div class="mobile-logo-wrap">
-          <img src="imgs/logo.png" alt="HFC Logo" />
+          <img src="{{ url_for('static', filename='imgs/logo.png') }}" alt="HFC Logo" />
         </div>
         <div class="mobile-banner-headline">
           <div class="mobile-eyebrow">Faridabad &amp; Delhi NCR</div>
@@ -1834,7 +1834,7 @@
       <div class="product-card reveal" data-category="cake" style="transition-delay:0.05s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#fff0f2,#ffd6dc);">
-            <img src="imgs/cake0.jpeg" alt="Classic Designer Cake" />
+            <img src="{{ url_for('static', filename='imgs/cake0.jpeg') }}" alt="Classic Designer Cake" />
           </div>
           <span class="product-tag tag-cake">Eggless</span>
         </div>
@@ -1851,7 +1851,7 @@
       <div class="product-card reveal" data-category="cake" style="transition-delay:0.1s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#fff5e6,#ffddb3);">
-            <img src="imgs/cake1.jpeg" alt="Photo Print Cake" />
+            <img src="{{ url_for('static', filename='imgs/cake1.jpeg') }}" alt="Photo Print Cake" />
           </div>
           <span class="product-tag tag-cake">Eggless</span>
         </div>
@@ -1868,7 +1868,7 @@
       <div class="product-card reveal" data-category="cake" style="transition-delay:0.2s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#e8f4fd,#b3d9f5);">
-            <img src="imgs/cake2.jpeg" alt="Wedding Tier Cake" />
+            <img src="{{ url_for('static', filename='imgs/cake2.jpeg') }}" alt="Wedding Tier Cake" />
           </div>
           <span class="product-tag tag-cake">Eggless</span>
         </div>
@@ -1885,7 +1885,7 @@
       <div class="product-card reveal" data-category="flower" style="transition-delay:0.05s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#fff9e6,#ffe8b0);">
-            <img src="imgs/flower1.jpeg" alt="Rose Bouquet" />
+            <img src="{{ url_for('static', filename='imgs/flower1.jpeg') }}" alt="Rose Bouquet" />
           </div>
           <span class="product-tag tag-flower">Fresh</span>
         </div>
@@ -1902,7 +1902,7 @@
       <div class="product-card reveal" data-category="flower" style="transition-delay:0.1s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#e8f5e9,#a5d6a7);">
-            <img src="imgs/flower2.jpeg" alt="Mixed Flower Bunch" />
+            <img src="{{ url_for('static', filename='imgs/flower2.jpeg') }}" alt="Mixed Flower Bunch" />
           </div>
           <span class="product-tag tag-flower">Fresh</span>
         </div>
@@ -1919,7 +1919,7 @@
       <div class="product-card reveal" data-category="flower" style="transition-delay:0.15s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#f3e5f5,#ce93d8);">
-            <img src="imgs/flower4.jpeg" alt="Wedding Flower Décor" />
+            <img src="{{ url_for('static', filename='imgs/flower3.jpeg') }}" alt="Wedding Flower Décor" />
           </div>
           <span class="product-tag tag-flower">Special</span>
         </div>
@@ -1936,7 +1936,7 @@
       <div class="product-card reveal" data-category="flower" style="transition-delay:0.2s">
         <div class="product-img-wrap">
           <div class="product-img-placeholder" style="background:linear-gradient(135deg,#fff3e0,#ffcc80);">
-            <img src="imgs/flower5.jpeg" alt="Satsang Flower Décor" />
+            <img src="{{ url_for('static', filename='imgs/flower4.jpeg') }}" alt="Satsang Flower Décor" />
           </div>
           <span class="product-tag tag-flower">Spiritual</span>
         </div>
@@ -2153,7 +2153,7 @@
     <div class="footer-top">
       <div>
         <div class="footer-brand-logo">
-          <img src="imgs/logo.png" alt="HFC" class="footer-logo-img" />
+          <img src="{{ url_for('static', filename='imgs/logo.png') }}" alt="HFC" class="footer-logo-img" />
           <div>
             <div class="footer-brand-name">HFC™</div>
             <div style="font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:1px;">The House of Flowers & Cakes</div>
